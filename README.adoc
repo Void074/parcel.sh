@@ -1,12 +1,12 @@
-# Parcel
+= Parcel
 
-A simple wrapper written around the [dnf](). 
+A simple wrapper written around the *dnf*. 
 
-## Objective
+== Objective
 
 The main objective is to learn how to write a simple wrapper around dnf using bash and maybe port it to rust or golang (depending on the mood am in)
 
-## Maintainer
+== Maintainer
 
-- Void074[https://codeberg.org/Void074]
-- Website[https://gurialabs.fly.dev]
+* https://codeberg.org/Void074[Void074]
+* https://gurialabs.fly.dev[Website]
