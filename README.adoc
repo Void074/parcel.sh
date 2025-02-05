@@ -8,5 +8,5 @@ The main objective is to learn how to write a simple wrapper around dnf using ba
 
 ## Maintainer
 
-- [Void074](https://codeberg.org/Void074)
-- [Website](https://gurialabs.fly.dev)
+- Void074[https://codeberg.org/Void074]
+- Website[https://gurialabs.fly.dev]
