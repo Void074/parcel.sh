@@ -16,7 +16,8 @@ function help() {
 }
 
 function install_package() {
-    local cmd=(sudo dnf install "$@")
+   local cmd=(sudo dnf install "$@")
+
    if ! "${cmd[@]}"; then
         echo "Failed to install: $*" >&2
         return 1
@@ -55,14 +56,13 @@ function main() {
         return 1
     fi
 
-    echo "cmd -> $cmd"
     shift || true
 
     if [[ -n  "${commands[$cmd]}" ]]; then
         ${commands[$cmd]} "$@"
     else
         echo "unknown command: $cmd"
-        echo "usage: cmds --help"
+        echo "usage: parcel --help"
         return 1
     fi
 }
