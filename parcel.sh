@@ -52,7 +52,7 @@ function main() {
     local cmd="$1"
 
     if [[ -z "$cmd" ]]; then
-        echo "usage: cmds --help"
+        echo "usage: parcel --help"
         return 1
     fi
 
