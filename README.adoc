@@ -1,10 +1,10 @@
 = Parcel
 
-A simple wrapper written around the *dnf*. 
+A simple wrapper written around the *dnf*.
 
 == Objective
 
-The main objective is to learn how to write a simple cli wrapper around dnf using bash and maybe port it to rust or golang (depending on the mood am in)
+The main objective is to learn how to write a simple cli application around the dnf using bash.
 
 == Maintainer
 

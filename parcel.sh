@@ -11,7 +11,17 @@ declare -A commands=(
 )
 
 function help() {
-    echo "getting started"
+    echo "Parcel - A simple cli wrapper around the basic dnf commands"
+    echo "Author: Void074"
+    echo "Repo: https://codeberg.org/Void074"
+    echo "Version: 0.0.0-beta"
+    echo ""
+    echo "Usage: parcel [command]"
+    echo ""
+    echo "Command           Description"
+    echo "install [args]    Install a package or a list of packages"
+    echo "update            Syncs and updates systems"
+    echo "remove [args]     Uninstall a package or list of packages"
     return 0
 }
 
