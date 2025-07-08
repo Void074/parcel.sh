@@ -1,4 +1,5 @@
-function _help() {
+# perl programming influences in term of fucntions signatures
+function _help {
     echo "Parcel - A simple cli wrapper around the basic dnf commands"
     echo "Author: Void074"
     echo "Repo: https://codeberg.org/Void074"
@@ -13,7 +14,7 @@ function _help() {
     return 0
 }
 
-function install_package() {
+function install_package {
    local cmd=(sudo dnf install "$@")
 
    if ! "${cmd[@]}"; then
@@ -24,7 +25,7 @@ function install_package() {
     return 0
 }
 
-function update_system() {
+function update_system {
     local cmd=(sudo dnf update)
 
 	if ! "${cmd[@]}"; then
@@ -35,7 +36,7 @@ function update_system() {
     return 0
 }
 
-function remove_package() {
+function remove_package {
     local cmd=(sudo dnf remove "$@")
 
 	if ! "${cmd[@]}"; then

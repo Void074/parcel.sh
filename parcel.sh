@@ -19,6 +19,7 @@ declare -A commands=(
   ["remove"]="remove_package"
   ["update"]="update_system"
   ["--help"]="_help"
+  ["-h"]="_help"
 )
 
 function main() {
@@ -41,3 +42,4 @@ function main() {
 }
 
 main "$@"
+##!!!! END OF MAIN !!!!##
